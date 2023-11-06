@@ -1,4 +1,4 @@
-.testcase{
+.pushright{
     display: flex;
-    font-size: 50px;
+    margin-left: 100px;
 }
