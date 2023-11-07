@@ -3,3 +3,27 @@
 margin-bottom: 20px;
 
 }
+
+.centralHeader{
+
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+.navbarspacing{
+
+    display: flex;
+    justify-content: space-around;
+}
+
+.aboutmespacer{
+    display: flex;
+    justify-content: space-around;
+}
+
+.footerhover:hover{
+    background-color: aqua;
+    transition: 0.5s;
+    
+}

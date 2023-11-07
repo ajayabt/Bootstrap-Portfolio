@@ -23,23 +23,16 @@
       <div class="collapse navbar-collapse" id="navbarNavDropdown">
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">My Work</a>
+            <a class="nav-link active" aria-current="page" href="#mywork">My Work</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Skills</a>
+            <a class="nav-link active" href="#skills">Skills</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">About Me</a>
+            <a class="nav-link active" href="#aboutme">About Me</a>
           </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Sections
-            </a>
-            <ul class="dropdown-menu pushright">
-              <li><a class="dropdown-item" href="#">Work</a></li>
-              <li><a class="dropdown-item" href="#">Skills</a></li>
-              <li><a class="dropdown-item" href="#">About Me</a></li>
-            </ul>
+          <li class="nav-item">
+            <a class="nav-link active" href="#contact">Contact</a>
           </li>
         </ul>
       </div>
@@ -56,18 +49,14 @@
     <p class="col-lg-8 mx-auto fs-5 text-muted">
       This is a custom jumbotron featuring an SVG image at the top, some longer text that wraps early thanks to a responsive <code>.col-*</code> class, and a customized call to action.
     </p>
-    <div class="d-inline-flex gap-2 mb-5">
-      <button class="d-inline-flex align-items-center btn btn-primary btn-lg px-4 rounded-pill" type="button">
-        Call to action
-        <svg class="bi ms-2" width="24" height="24"><use xlink:href="#arrow-right-short"/></svg>
-      </button>
-      <button class="btn btn-outline-secondary btn-lg px-4 rounded-pill" type="button">
-        Secondary link
-      </button>
+    
     </div>
   </div>
 </div>
 
+<!-- My work cards -->
+
+<h2 class="centralHeader" id="mywork">My Work</h2>
 <div class="container-fluid">
   <div class="row">
     <div class="cardContainer col-lg-3 col-md-6 col-sm-12">
@@ -114,6 +103,103 @@
       </div>
     </div>
   </div>
+</div>
+
+<h2 class="centralHeader">About Me/Skills</h2>
+
+<div class="container-fluid">
+
+  
+  <div class="row aboutmespacer">
+    <div class="card col-5" id="aboutme" style="width: 25rem;">
+      <!-- About me card -->
+      <div class="card-body">
+        <h5 class="card-title">About Me</h5>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <a href="../assets/IDAjaya Bhogal Todd CV .pdf" class="btn btn-primary">Check out my CV!</a>
+      </div>
+    </div>
+    <!-- Skills accordian -->
+    <div class="accordion col-5" id="skills">
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+            My Skills
+          </button>
+        </h2>
+        <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            Upon completing the frontend web development bootcamp, I have gained a solid foundation in HTML and CSS. These essential skills allow me to create and style web pages with precision and creativity. I can structure web content effectively using HTML, understanding elements, attributes, and semantic tags. With CSS, I have learned how to apply styles, layout designs, and enhance user interfaces, making web pages visually appealing and responsive. Some of the specific skills I've acquired include:
+            <ul>
+              <li>Creating well-structured HTML documents.</li>
+              <li> Using CSS for styling and layout.</li>
+              <li>Understanding and implementing responsive web design techniques.</li>
+              <li>Applying CSS frameworks like Bootstrap for rapid development.</li>
+              <li>Optimizing web performance through CSS and HTML best practices.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+            Is that all...
+          </button>
+        </h2>
+        <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            As a graduate of the frontend web development bootcamp, I will have a strong grasp of JavaScript, a versatile and powerful programming language for web development. I can now create dynamic and interactive web applications.
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+            Even more of my skills
+          </button>
+        </h2>
+        <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            In addition to technical skills, I've developed competencies in product management and instructional design. These skills are crucial in creating user-friendly web applications and educational content:
+
+
+            <ul>
+              <li>Product Management: I can define and prioritize features, create product roadmaps, and conduct user research to align web projects with user needs and business goals. My understanding of Agile methodologies enables me to manage projects efficiently and adapt to changing requirements.
+
+              </li>
+
+              <li>Instructional Design: I have learned to design engaging and effective learning experiences. This includes creating educational content, structuring courses, and using instructional technologies to support effective teaching and learning. My skills enable me to create clear and engaging user guides, tutorials, and online courses.
+
+              </li>
+            </ul>
+
+            By combining these technical HTML and CSS skills with my proficiency in JavaScript, product management, and instructional design, I am well-equipped to contribute to the development of user-friendly, interactive web applications and educational resources.
+
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    
+
+<h2 class="centralHeader" id="contact">Contact Me</h2>
+
+<!-- Footer -->
+<div class="container">
+  <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+    <p class="col-md-4 mb-0 text-body-secondary">&copy; Ajaya Bhogal-Todd LTD</p>
+
+    <a href="/" class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+      <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"/></svg>
+    </a>
+
+    <ul class="nav col-md-4 justify-content-end">
+      <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary footerhover">Home</a></li>
+      <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary footerhover">Twitter</a></li>
+      <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary footerhover">Instagram</a></li>
+      <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary footerhover">LinkedIn</a></li>
+    </ul>
+  </footer>
 </div>
 
 
