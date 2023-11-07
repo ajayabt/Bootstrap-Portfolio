@@ -32,8 +32,7 @@ Links are live to generic webpages, e.g. facebook link will go to facebook, not 
 
 
 ## Credits
-
-All code is my own (as you can probably tell :D). Thank you to the bootcamp instructors and TAs who have enabled me to get this far!
+Bootstrap has been used for major elements within the code e.g. Jumbotron, cards, accordian, navbar and footer. Any custimisation and layout is my own work. Thank you to the bootcamp instructors and TAs who have enabled me to get this far!
 
 ## Screenshot and links
 
@@ -41,9 +40,11 @@ Github Repo: https://github.com/ajayabt/Bootstrap-Portfolio
 
 Deployed app: https://ajayabt.github.io/Bootstrap-Portfolio/
 
-Screenshot: 
+Screenshot: ![Alt text](<Web capture_7-11-2023_15237_.jpeg>)
 
 
+Previous deployed page: https://ajayabt.github.io/AjayaBT-Portfolio/
+Previous portfolio page screenshot: ![Alt text](<Screenshot 2023-10-31 124411.png>)
 
 
 ## License
