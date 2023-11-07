@@ -14,25 +14,22 @@
 <body>
 
   <!-- Navbar -->
-  <nav class="navbar bg-dark border-bottom border-body navbar-expand-lg bg-body-tertiary">
+  <nav class="navbar bg-dark border-bottom border-body navbar-expand-lg bg-body-tertiary" id="navbar">
     <div class="container-fluid">
-      <a class="navbar-brand" href="#"><img src="https://placehold.co/100x100"></a>
+      <a class="navbar-brand navimage " href="#"><img src="../Images/standard_341px-Nottingham_Forest_FC_Logo.png" height="100"></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <div class="collapse navbar-collapse navbarspacing" id="navbarNavDropdown">
         <ul class="navbar-nav">
-          <li class="nav-item">
+          <li class="nav-item navbarfont">
             <a class="nav-link active" aria-current="page" href="#mywork">My Work</a>
           </li>
-          <li class="nav-item">
+          <li class="nav-item navbarfont">
             <a class="nav-link active" href="#skills">Skills</a>
           </li>
-          <li class="nav-item">
+          <li class="nav-item navbarfont">
             <a class="nav-link active" href="#aboutme">About Me</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active" href="#contact">Contact</a>
           </li>
         </ul>
       </div>
@@ -42,63 +39,67 @@
 <!-- Jumbotron -->
   
 
-<div class="container my-5">
+<div class="container my-5 jumboborder">
   <div class="p-5 text-center bg-body-tertiary rounded-3">
-    <img class="bi mt-4 mb-3" style="color: var(--bs-indigo);" width="300" height="300" src="https://placehold.co/300x300">
-    <h1 class="text-body-emphasis">Jumbotron with icon</h1>
+    <img class="bi mt-4 mb-3 jumboimageborder" style="color: var(--bs-indigo);" height="300" src="Images\PXL_20231002_094505408.MP.jpg">
+    <h1 class="text-body-emphasis">Ajaya Bhogal-Todd</h1>
+    <h2>Front end Development and Instructional Design</h2>
     <p class="col-lg-8 mx-auto fs-5 text-muted">
-      This is a custom jumbotron featuring an SVG image at the top, some longer text that wraps early thanks to a responsive <code>.col-*</code> class, and a customized call to action.
+      Building Better Web Experiences through Code and Creativity. Transforming Ideas into Engaging Digital Solutions.
     </p>
-    
+    <a href="#mywork" class="btn btn-primary">My Work</a>
     </div>
   </div>
 </div>
 
-<!-- My work cards -->
+
 
 <h2 class="centralHeader" id="mywork">My Work</h2>
+
+<!-- My work cards -->
+
 <div class="container-fluid">
   <div class="row">
     <div class="cardContainer col-lg-3 col-md-6 col-sm-12">
-      <div class="card" style="width: 18rem;">
-        <img src="https://placehold.co/600x400" class="card-img-top" alt="...">
+      <div class="card cardbgcolor" style="width: 18rem;">
+        <img src="https://placehold.co/600x400" class="card-img-top" alt="..." >
         <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          <a href="#" class="btn btn-primary">Go somewhere</a>
+          <h5 class="card-title">CSS Portfolio Challenge</h5>
+          <p class="card-text">Our first challenge was to build a portfolio page without the use of bootstrap</p>
+          <a href="https://ajayabt.github.io/AjayaBT-Portfolio/" class="btn btn-primary centerbtn">CSS Portfolio Challenge</a>
         </div>
       </div>
     </div>
     
     <div class="cardContainer col-lg-3 col-md-6 col-sm-12">
-      <div class="card" style="width: 18rem;">
+      <div class="card cardbgcolor" style="width: 18rem;">
         <img src="https://placehold.co/600x400" class="card-img-top" alt="...">
         <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          <a href="#" class="btn btn-primary">Go somewhere</a>
+          <h5 class="card-title">Project 2</h5>
+          <p class="card-text">In my first portfolio I pretended to have done work for amazon, link below</p>
+          <a href="https://www.amazon.co.uk/" class="btn btn-primary centerbtn">Amazon</a>
         </div>
       </div>
     </div>
     
     <div class="cardContainer col-lg-3 col-md-6 col-sm-12">
-      <div class="card" style="width: 18rem;">
+      <div class="card cardbgcolor" style="width: 18rem;">
         <img src="https://placehold.co/600x400" class="card-img-top" alt="...">
         <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          <a href="#" class="btn btn-primary">Go somewhere</a>
+          <h5 class="card-title">Project 3</h5>
+          <p class="card-text">In my first portfolio I pretended to have done work for google, link below.</p>
+          <a href="https://www.google.co.uk/" class="btn btn-primary centerbtn">Google</a>
         </div>
       </div>
     </div>
     
     <div class="cardContainer col-lg-3 col-md-6 col-sm-12">
-      <div class="card" style="width: 18rem;">
+      <div class="card cardbgcolor" style="width: 18rem;">
         <img src="https://placehold.co/600x400" class="card-img-top" alt="...">
         <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          <a href="#" class="btn btn-primary">Go somewhere</a>
+          <h5 class="card-title">Project 4</h5>
+          <p class="card-text">In my first portfolio I pretended to have done work for Nottingham Forest, link below.</p>
+          <a href="https://www.nottinghamforest.co.uk/" class="btn btn-primary centerbtn">Nottingham Forest</a>
         </div>
       </div>
     </div>
@@ -114,8 +115,15 @@
     <div class="card col-5" id="aboutme" style="width: 25rem;">
       <!-- About me card -->
       <div class="card-body">
-        <h5 class="card-title">About Me</h5>
-        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <h5 class="card-title">About me and how to contact:</h5>
+        <p class="card-text">
+          I'm a dedicated frontend web developer with a strong foundation in HTML, CSS, and JavaScript. I'm passionate about creating dynamic and user-friendly web applications.
+
+          In addition to my technical skills, I bring expertise in instructional design principles, multimedia design tools, and learning management systems (LMS). I'm adept at crafting engaging and effective educational content.
+          
+          My mission is to create impactful web solutions and educational content that engage users and make a difference in the digital realm.
+        
+          Check out my CV for more information and how to contact me.</p>
         <a href="../assets/IDAjaya Bhogal Todd CV .pdf" class="btn btn-primary">Check out my CV!</a>
       </div>
     </div>
@@ -182,7 +190,6 @@
     
     
 
-<h2 class="centralHeader" id="contact">Contact Me</h2>
 
 <!-- Footer -->
 <div class="container">
@@ -194,10 +201,10 @@
     </a>
 
     <ul class="nav col-md-4 justify-content-end">
-      <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary footerhover">Home</a></li>
-      <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary footerhover">Twitter</a></li>
-      <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary footerhover">Instagram</a></li>
-      <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary footerhover">LinkedIn</a></li>
+      <li class="nav-item"><a href="#navbar" class="nav-link px-2 text-body-secondary footerhover">Home</a></li>
+      <li class="nav-item"><a href="https://twitter.com/?lang=en" class="nav-link px-2 text-body-secondary footerhover">Twitter</a></li>
+      <li class="nav-item"><a href="https://www.instagram.com/" class="nav-link px-2 text-body-secondary footerhover">Instagram</a></li>
+      <li class="nav-item"><a href="https://www.linkedin.com/" class="nav-link px-2 text-body-secondary footerhover">LinkedIn</a></li>
     </ul>
   </footer>
 </div>

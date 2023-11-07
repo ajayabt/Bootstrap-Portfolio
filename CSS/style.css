@@ -1,7 +1,12 @@
 
+
 .cardContainer{
 margin-bottom: 20px;
 
+}
+
+.cardbgcolor{
+background-color: grey;
 }
 
 .centralHeader{
@@ -9,12 +14,43 @@ margin-bottom: 20px;
     display: flex;
     justify-content: center;
     margin: 20px;
+    background-color: grey;
+    border: solid black 2px;
 }
 
 .navbarspacing{
 
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    margin:0px;
+    padding-top: 10px;
+}
+
+.navbarfont{
+
+    font-size: 30px;
+    padding-left:10px;
+    padding-right: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: grey;
+
+}
+.navbarfont:hover{
+    transition: 0.5s;
+    box-shadow: 10px 10px 8px 10px red
+}
+
+.navimage{
+    margin-right: 0px;
+}
+
+.jumboborder{
+    border: solid grey 2px;
+}
+
+.jumboimageborder{
+    border: solid gold 2px;
 }
 
 .aboutmespacer{
@@ -23,7 +59,15 @@ margin-bottom: 20px;
 }
 
 .footerhover:hover{
-    background-color: aqua;
     transition: 0.5s;
+    box-shadow: 10px 10px 8px 10px red
     
+}
+
+.centerbtn{
+    display: flex;
+    justify-content: center;
+    background-color: gold;
+    color: black;
+    border: solid grey 2px;
 }
